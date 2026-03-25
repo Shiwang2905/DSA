@@ -1,17 +1,13 @@
-package com.shiwang.DSA;
-
-import javax.imageio.ImageReader;
+package com.shiwang.dsabootcamp.algorithms;
 
 public class MergeSort {
 
     public static void main(String[] args) {
 
         int[] inputArray= {-30,12,4,786,2,-45,-6,32,145};
-
         mergeSort(inputArray);
-
         for(int i=0; i<inputArray.length; i++){
-            System.out.println(inputArray[i]);
+            System.out.print(inputArray[i]);
         }
     }
 
@@ -57,5 +53,7 @@ public class MergeSort {
             array[k++]=right[j++];
         }
     }
+
+
 
 }

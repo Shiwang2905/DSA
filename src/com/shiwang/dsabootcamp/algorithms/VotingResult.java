@@ -1,4 +1,4 @@
-package com.shiwang.DSA;
+package com.shiwang.dsabootcamp.algorithms;
 
 import java.io.*;
 import java.util.*;

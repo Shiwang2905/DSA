@@ -1,4 +1,4 @@
-package com.shiwang.DSA;
+package com.shiwang.dsabootcamp.algorithms;
 
 public class MergeSortTwo {
 

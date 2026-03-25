@@ -1,6 +1,4 @@
-package com.shiwang.DSA;
-
-import java.util.Arrays;
+package com.shiwang.dsabootcamp.algorithms;
 
 public class CountingSort {
 
@@ -23,10 +21,10 @@ public class CountingSort {
                 maxValue = i;
             }
         }
-        int countingArray[] = new int[maxValue];
+        int[] countingArray = new int[maxValue];
 
-        for (int i = 0; i < array.length; i++) {
-            countingArray[array[i] - 1]++;
+        for (int j : array) {
+            countingArray[j - 1]++;
         }
 
         int arrayIndex = 0;
@@ -41,4 +39,4 @@ public class CountingSort {
     }
 
 
-    }
+}
